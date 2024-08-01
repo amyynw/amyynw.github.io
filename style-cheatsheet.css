@@ -1,0 +1,44 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: Palatino, serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 65px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+table {
+    border: 2px solid white;
+    width: 700px;
+    margin: 0 auto;
+}
+
+th {
+    text-align: left;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: aqua;
+    color: dimgray;
+    height: 35px;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid white;
+    height: 35px;
+}
+
+.tag {
+    background-color: dimgray;
+    font-family: "Courier New", monospace;
+}
+
