@@ -1,0 +1,229 @@
+body {
+    background-color: #d3d3d3;
+}
+
+#heading {
+    font-size: 75px;
+    font-family: "Palatino", serif;
+}
+
+h1 {
+    font-family: "Palatino", serif;
+}
+
+.category {
+    border: 2px solid black;
+    padding: 0px 0px 5px 5px;
+    width: 1300px;
+    box-shadow: 2px 2px 2px black;
+    background-color: white;
+}
+
+.category .h2 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Palatino", serif;
+}
+
+h3 {
+    font-family: verdana, sans-serif;
+}
+
+#colors {
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+#black,
+#white,
+#ghostwhite,
+#whitesmoke,
+#lightgray,
+#dimgray,
+#oldlace,
+#papayawhip,
+#mintcream,
+#azure,
+#lightcyan,
+#paleturquoise,
+#skyblue,
+#powderblue,
+#lightseagreen,
+#darkcyan {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 5px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+#black {
+    color: white;
+    background-color: #000;
+    margin-left: 5px;
+}
+
+#white {
+    background-color: #fff;
+}
+
+#ghostwhtie {
+    background-color: #f8f8ff;
+}
+
+#whitesmoke {
+    background-color: #f5f5f5;
+}
+
+#lightgray {
+    background-color: #d3d3d3;
+}
+
+#dimgray {
+    background-color: #696969;
+}
+
+#oldlace {
+    background-color: #fdf5e6;
+}
+
+#papayawhip {
+    background-color: #ffefd5;
+}
+
+#mintcream {
+    background-color: #f5fffa;
+    margin-left: 5px;
+}
+
+#azure {
+    background-color: #f0ffff;
+}
+
+#lightcyan {
+    background-color: #e0ffff;
+}
+
+#paleturquoise {
+    background-color: #afeeee;
+}
+
+#skyblue {
+    background-color: #87ceeb;
+}
+
+#powderblue {
+    background-color: #b0e0e6;
+}
+
+#lightseagreen {
+    background-color: #20b2aa;
+}
+
+#darkcyan {
+    background-color: #008b8b;
+}
+
+.gray {
+    color: gray;
+}
+
+#serif,
+#sans-serif,
+#monospace {
+    padding-bottom: 20px;
+}
+
+#serif {
+    font-family: "Book Antiqua", serif;
+    padding-left: 5px;
+}
+
+#book-antiqua,
+#palatino {
+    display: inline-block;
+}
+
+#book-antiqua {
+    padding-right: 200px;
+}
+
+#palatino {
+    font-family: "palatino", serif;
+}
+
+#sans-serif {
+    font-family: verdana, sans-serif;
+    padding-left: 5px;
+}
+
+#century-gothic,
+#verdana {
+    display: inline-block;
+}
+
+#century-gothic {
+    font-family: "Century Gothic", sans-serif;
+    padding-right: 175px;
+}
+
+#monospace {
+    font-family: "Courier New", monospace;
+    padding-left: 5px;
+}
+
+#courier-new,
+#lucida {
+    display: inline-block;
+}
+
+#courier-new {
+    padding-right: 100px;
+}
+
+#lucida {
+    font-family: "Lucida Sans Typewriter", monospace;
+}
+
+#letter {
+    letter-spacing: 3px;
+}
+
+nav {
+    font-family: "Palatino", serif;
+    padding-left: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+	color: #f8f8ff;
+}
+
+heading {
+    font-family: "Palatino", serif;
+    padding-left: 5px;
+}
+
+#h2 {
+    font-family: "Palatino", serif;
+    padding-left: 5px;
+}
+
+#h3 {
+    font-family: Verdana, sans-serif;
+    padding-left: 5px;
+}
+
+#paragraph {
+    font-family: "Century Gothic", sans-serif;
+    padding-left: 5px;
+}
