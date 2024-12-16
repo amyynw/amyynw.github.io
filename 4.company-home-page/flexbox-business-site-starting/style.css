@@ -1,0 +1,240 @@
+/* UNIVERSAL */
+
+* {
+    font-family: "Palatino", serif;
+    margin: 0;
+}
+
+body {
+    background-color: #DDCBBF;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* NAV BAR */
+
+nav {
+    width: 100%;
+    background-color: #AE3433;
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    opacity: .8;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LOGO */
+
+.logo {
+    text-align: center;
+    background-color: white;
+}
+
+#logo {
+    width: 55%;
+    background-color: white;
+}
+
+/* CONTAINERS */
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+/* ABOUT US */
+
+#about {
+    width: 75%;
+    border: solid black 1px;
+    margin: 50px;
+    padding: 25px;
+    background-color: white;
+}
+
+#contact {
+    /*
+    padding: 20px;
+    */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location {
+    background-color: #AE3433;
+    color: white;
+}
+
+.phone {
+    background-color: #AE3433;
+    color: white;
+}
+
+.email {
+    background-color: #AE3433;
+    color: white;
+}
+
+/* SERVICES */
+
+#services {
+    width: 75%;
+    border: solid black 1px;
+    margin: 25px;
+    padding: 25px;
+    background-color: white;
+}
+
+#commodities {
+    display: flex;
+    height: 500px;
+}
+
+#commodities li {
+    list-style: none;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.conventional {
+    background-color: #6D8445;
+    color: white;
+    overflow: scroll;
+}
+
+.organic {
+    background-color: #6D8445;
+    color: white;
+    overflow: scroll;
+}
+
+.feedstores {
+    font-size: 45px;
+    line-height: 60px;
+}
+
+#feedstores {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.evr {
+    background-color: #5E4338;
+    color: white;
+}
+
+.larsens {
+    background-color: #5E4338;
+    color: white;
+}
+
+.lees {
+    background-color: #5E4338;
+    color: white;
+}
+
+.lockeford {
+    background-color: #5E4338;
+    color: white;
+}
+
+.thb {
+    background-color: #5E4338;
+    color: white;
+}
+
+.tobys {
+    background-color: #5E4338;
+    color: white;
+}
+
+/* TEAM */
+
+#team {
+    width: 75%;
+    border: solid black 1px;
+    margin: 25px;
+    padding: 25px;
+    background-color: white;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team p {
+    margin-top: 0;
+    padding: 5px;
+}
+
+.team img {
+    object-fit: contain;
+    height: 350px;
+    width: 350px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #AE3433;
+    color: white;
+    font-size: 40px;
+    opacity: .8;
+    letter-spacing: 2px;
+    text-align: center;
+    align-content: center;
+    height: 80px;
+    bottom: 0;
+    margin-top: 25px;
+}
